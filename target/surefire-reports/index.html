@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-All_Tests">
+              <span class="suite-name border-passed">All Tests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-All_Tests">
+                    <span>C:\Users\kbabko\IdeaProjects\test-task\src\test\resources\tests.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-All_Tests">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-All_Tests">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-All_Tests">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-All_Tests">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-All_Tests">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-All_Tests">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-All_Tests" class="hide-methods passed suite-All_Tests"> (hide)</a> <!-- hide-methods passed suite-All_Tests -->
+                      <a href="#" panel-name="suite-All_Tests" class="show-methods passed suite-All_Tests"> (show)</a> <!-- show-methods passed suite-All_Tests -->
+                    </span>
+                    <div class="method-list-content passed suite-All_Tests">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Tests" title="com.ss.tests.ProductPageElementsTest" hash-for-method="commonElementsTest(Крупье)">commonElementsTest(Крупье)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Tests" title="com.ss.tests.ProductPageElementsTest" hash-for-method="commonElementsTest(Актёр)">commonElementsTest(Актёр)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Tests" title="com.ss.tests.ProductPageElementsTest" hash-for-method="commonElementsTest(Медсестра)">commonElementsTest(Медсестра)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Tests" title="com.ss.tests.FilterByPriceTest" hash-for-method="filterByPriceTest">filterByPriceTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Tests" title="com.ss.tests.ProductPageElementsTest" hash-for-method="filterElementsTest(Актёр)">filterElementsTest(Актёр)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Tests" title="com.ss.tests.ProductPageElementsTest" hash-for-method="filterElementsTest(Крупье)">filterElementsTest(Крупье)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Tests" title="com.ss.tests.ProductPageElementsTest" hash-for-method="filterElementsTest(Медсестра)">filterElementsTest(Медсестра)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Tests" title="com.ss.tests.ProductPageElementsTest" hash-for-method="tableElementsTest(Актёр)">tableElementsTest(Актёр)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Tests" title="com.ss.tests.ProductPageElementsTest" hash-for-method="tableElementsTest(Медсестра)">tableElementsTest(Медсестра)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Tests" title="com.ss.tests.ProductPageElementsTest" hash-for-method="tableElementsTest(Крупье)">tableElementsTest(Крупье)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-All_Tests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-All_Tests" class="panel All_Tests">
+          <div class="suite-All_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ss.tests.FilterByPriceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="filterByPriceTest">
+                  </a> <!-- filterByPriceTest -->
+                  <span class="method-name">filterByPriceTest</span>
+                  <em>
+(Apply filter by price and verify result)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests-class-passed -->
+          <div class="suite-All_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ss.tests.ProductPageElementsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="commonElementsTest(Крупье)">
+                  </a> <!-- commonElementsTest(Крупье) -->
+                  <span class="method-name">commonElementsTest</span>
+                  <span class="parameters">(Крупье)</span>
+                  <em>
+(Verify common elements for Vacancy category page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="commonElementsTest(Актёр)">
+                  </a> <!-- commonElementsTest(Актёр) -->
+                  <span class="method-name">commonElementsTest</span>
+                  <span class="parameters">(Актёр)</span>
+                  <em>
+(Verify common elements for Vacancy category page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="commonElementsTest(Медсестра)">
+                  </a> <!-- commonElementsTest(Медсестра) -->
+                  <span class="method-name">commonElementsTest</span>
+                  <span class="parameters">(Медсестра)</span>
+                  <em>
+(Verify common elements for Vacancy category page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="filterElementsTest(Актёр)">
+                  </a> <!-- filterElementsTest(Актёр) -->
+                  <span class="method-name">filterElementsTest</span>
+                  <span class="parameters">(Актёр)</span>
+                  <em>
+(Verify filter elements for Vacancy category page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="filterElementsTest(Крупье)">
+                  </a> <!-- filterElementsTest(Крупье) -->
+                  <span class="method-name">filterElementsTest</span>
+                  <span class="parameters">(Крупье)</span>
+                  <em>
+(Verify filter elements for Vacancy category page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="filterElementsTest(Медсестра)">
+                  </a> <!-- filterElementsTest(Медсестра) -->
+                  <span class="method-name">filterElementsTest</span>
+                  <span class="parameters">(Медсестра)</span>
+                  <em>
+(Verify filter elements for Vacancy category page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tableElementsTest(Актёр)">
+                  </a> <!-- tableElementsTest(Актёр) -->
+                  <span class="method-name">tableElementsTest</span>
+                  <span class="parameters">(Актёр)</span>
+                  <em>
+(Verify filter elements for Vacancy category page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tableElementsTest(Медсестра)">
+                  </a> <!-- tableElementsTest(Медсестра) -->
+                  <span class="method-name">tableElementsTest</span>
+                  <span class="parameters">(Медсестра)</span>
+                  <em>
+(Verify filter elements for Vacancy category page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tableElementsTest(Крупье)">
+                  </a> <!-- tableElementsTest(Крупье) -->
+                  <span class="method-name">tableElementsTest</span>
+                  <span class="parameters">(Крупье)</span>
+                  <em>
+(Verify filter elements for Vacancy category page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests-class-passed -->
+        </div> <!-- panel All_Tests -->
+        <div panel-name="test-xml-All_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\kbabko\IdeaProjects\test-task\src\test\resources\tests.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;All Tests&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ss.tests.FilterByPriceTest&quot;/&gt;
+      &lt;class name=&quot;com.ss.tests.ProductPageElementsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- All Tests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-All_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for All Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-All_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for All Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-All_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for All Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_All_Tests');
+function tableData_All_Tests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'tableElementsTest')
+data.setCell(0, 2, 'com.ss.tests.ProductPageElementsTest')
+data.setCell(0, 3, 10834);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'filterElementsTest')
+data.setCell(1, 2, 'com.ss.tests.ProductPageElementsTest')
+data.setCell(1, 3, 8424);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'filterElementsTest')
+data.setCell(2, 2, 'com.ss.tests.ProductPageElementsTest')
+data.setCell(2, 3, 7660);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'commonElementsTest')
+data.setCell(3, 2, 'com.ss.tests.ProductPageElementsTest')
+data.setCell(3, 3, 7642);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'tableElementsTest')
+data.setCell(4, 2, 'com.ss.tests.ProductPageElementsTest')
+data.setCell(4, 3, 7442);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'filterByPriceTest')
+data.setCell(5, 2, 'com.ss.tests.FilterByPriceTest')
+data.setCell(5, 3, 6652);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'commonElementsTest')
+data.setCell(6, 2, 'com.ss.tests.ProductPageElementsTest')
+data.setCell(6, 3, 6503);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'filterElementsTest')
+data.setCell(7, 2, 'com.ss.tests.ProductPageElementsTest')
+data.setCell(7, 3, 4067);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'tableElementsTest')
+data.setCell(8, 2, 'com.ss.tests.ProductPageElementsTest')
+data.setCell(8, 3, 3918);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'commonElementsTest')
+data.setCell(9, 2, 'com.ss.tests.ProductPageElementsTest')
+data.setCell(9, 3, 3471);
+window.suiteTableData['All_Tests']= { tableData: data, tableDiv: 'times-div-All_Tests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-All_Tests">
+              </div> <!-- times-div-All_Tests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-All_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for All Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-All_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.ss.tests.ProductPageElementsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initTestSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-All_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ss.tests.FilterByPriceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initTestSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">initTestClass</span>
+                <span class="method-start">2729 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareForTestMethod(public void com.ss.tests.FilterByPriceTest.filterByPriceTest())</span>
+                <span class="method-start">2760 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">changePageLang</span>
+                <span class="method-start">8592 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">filterByPriceTest</span>
+                <span class="method-start">9416 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16084 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ss.tests.ProductPageElementsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initTestClass</span>
+                <span class="method-start">16882 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareForTestMethod(public void com.ss.tests.ProductPageElementsTest.commonElementsTest(java.lang.String))</span>
+                <span class="method-start">16896 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">changePageLang</span>
+                <span class="method-start">21744 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">commonElementsTest(Крупье)</span>
+                <span class="method-start">22272 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28780 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareForTestMethod(public void com.ss.tests.ProductPageElementsTest.commonElementsTest(java.lang.String))</span>
+                <span class="method-start">29515 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">changePageLang</span>
+                <span class="method-start">36987 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">commonElementsTest(Актёр)</span>
+                <span class="method-start">37584 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">41060 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareForTestMethod(public void com.ss.tests.ProductPageElementsTest.commonElementsTest(java.lang.String))</span>
+                <span class="method-start">41836 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">changePageLang</span>
+                <span class="method-start">49366 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">commonElementsTest(Медсестра)</span>
+                <span class="method-start">50063 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">57710 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareForTestMethod(public void com.ss.tests.ProductPageElementsTest.filterElementsTest(java.lang.String))</span>
+                <span class="method-start">58427 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">changePageLang</span>
+                <span class="method-start">63089 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">filterElementsTest(Крупье)</span>
+                <span class="method-start">64107 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">71771 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareForTestMethod(public void com.ss.tests.ProductPageElementsTest.filterElementsTest(java.lang.String))</span>
+                <span class="method-start">72479 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">changePageLang</span>
+                <span class="method-start">76840 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">filterElementsTest(Актёр)</span>
+                <span class="method-start">77268 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">81340 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareForTestMethod(public void com.ss.tests.ProductPageElementsTest.filterElementsTest(java.lang.String))</span>
+                <span class="method-start">82070 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">changePageLang</span>
+                <span class="method-start">86432 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">filterElementsTest(Медсестра)</span>
+                <span class="method-start">87201 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">95629 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareForTestMethod(public void com.ss.tests.ProductPageElementsTest.tableElementsTest(java.lang.String))</span>
+                <span class="method-start">96378 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">changePageLang</span>
+                <span class="method-start">100829 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tableElementsTest(Крупье)</span>
+                <span class="method-start">101300 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">108749 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareForTestMethod(public void com.ss.tests.ProductPageElementsTest.tableElementsTest(java.lang.String))</span>
+                <span class="method-start">109504 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">changePageLang</span>
+                <span class="method-start">114143 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tableElementsTest(Актёр)</span>
+                <span class="method-start">114647 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">118569 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareForTestMethod(public void com.ss.tests.ProductPageElementsTest.tableElementsTest(java.lang.String))</span>
+                <span class="method-start">119337 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">changePageLang</span>
+                <span class="method-start">123834 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tableElementsTest(Медсестра)</span>
+                <span class="method-start">124459 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">135298 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

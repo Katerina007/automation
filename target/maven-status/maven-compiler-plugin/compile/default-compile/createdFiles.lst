@@ -1,0 +1,8 @@
+com\ss\annotations\Rest.class
+com\ss\utils\WaitUtils.class
+com\ss\utils\WebDriverManager.class
+com\ss\utils\SuiteConfiguration.class
+com\ss\utils\ElementUtils.class
+com\ss\utils\ApiService$1.class
+com\ss\utils\ApiService$SSLMode.class
+com\ss\utils\ApiService.class

@@ -1,0 +1,13 @@
+com\ss\tests\ProductPageElementsTest.class
+com\ss\listeners\Listener.class
+com\ss\pages\MainPage.class
+com\ss\pages\ProductPage.class
+com\ss\data\VacancyCategoriesDataProvider.class
+com\ss\components\Footer.class
+com\ss\data\Constants.class
+com\ss\components\Header.class
+com\ss\tests\TestBase.class
+com\ss\pages\Page.class
+com\ss\components\Table.class
+com\ss\components\Filters.class
+com\ss\tests\FilterByPriceTest.class

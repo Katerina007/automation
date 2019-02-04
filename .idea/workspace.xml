@@ -1,7 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bfec4ee-5233-4028-acd4-8b9190e234be" name="Default Changelist" comment="" />
+    <list default="true" id="4bfec4ee-5233-4028-acd4-8b9190e234be" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/048783fa-ff0f-4cad-8421-d4fd8e28c05a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/06cf0e35-2fa0-4b78-9b60-03c626d225d6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/0bce29af-bbb1-428d-89ad-d5fd774b7d39-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/0cc4815a-a02d-401c-ba5a-2a4f7c4088db-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/11a44328-bd7e-4088-9fc3-e92c84cd402a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/125e25eb-fde9-4508-b933-467085f44b56-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/128a52a9-90c7-4392-af55-63a300f381c5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/230ffbbf-6522-42e9-ab79-e2e973d3bfe1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/25e75295-746e-4ce6-874a-59dfb99769da-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/25ef4afe-50c7-44f7-8103-eaeb1b61c22e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/2616aeba-7763-4f0e-8fbb-8cd2e6071785-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/2b80f6db-b1f9-4763-bd50-28c6b2b4be78-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/30a5e30d-5b5f-4981-8fa5-da2e51388d82-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/3717671e-6d57-4b40-8b3a-cd274af459a5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/44a967f0-336d-4b5a-8126-d295118d0911-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/44e19ee1-3bfc-4834-b0a1-fc09a00ba69b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/56a50c1f-c0a6-42e2-afbf-639a8f9acc55-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/5840e801-f12b-4487-b60e-ad5009357ea2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/59e1a368-539b-4a42-a93f-c035bda49ca0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/59f7d837-cee4-4828-9f4e-c38c9a9bed6c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/5d633393-2f24-4340-87fb-173600dabb17-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/6990eda4-8169-4e0f-a7a5-99741c1d278a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/7044398f-2ffe-4873-8722-62ff794e3d5d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/71826c6b-4400-4eb1-bcac-1a6c77adf86c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/7e8728c8-e769-4add-bad8-e5dfb8cad543-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/7ede9311-6de9-4ed1-b2b6-ec03025b46ec-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/8807f7ab-dabe-4a0b-b2ed-4a9bf13b81f4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/8dc4a218-0589-4f42-b68b-efaa1d215d6f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/8e222857-bc99-4b31-9393-160e502ca94e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/950149ea-5709-4a85-8a02-0eebfc3dcbb8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9fd497f3-b301-4091-ae7b-15c7f091116e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a7a938dc-7fe3-4f42-89fe-ea1cc1c57437-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b0742b6b-d89d-4584-9d3b-00f01da953a9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b34b0c81-0bdf-4e04-b4ef-f2969b433298-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b3b925c6-2edc-49c7-9c76-ed6334c06725-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b6b0b7d8-e5e0-4c3a-a6a6-32237e08ab31-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/bc7a1401-4bec-49b3-906c-f6f1e6798e4e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c8c0eb26-28c3-4c80-b78e-54837f61e993-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d1216b96-4309-4e0f-9667-83f9efd966f3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d9f1afa4-650c-4c54-b8bb-6c5f73ea30cf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/dc837b78-fab5-4e0b-9543-91a2b7ef9b6f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e0e4ec49-417f-470e-9189-a0f07c8595eb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e9ea6658-2932-4d11-8efc-3078dd853c03-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ea3c17e4-c711-4a92-bc51-a087156aeb65-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ee7a5589-4ed3-4258-8eaf-9d9b80fc7683-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ef800df0-5b4e-4efa-8e1b-6e36df3018eb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f06e7920-6343-402d-966d-5978886a5b78-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f1599d6d-4b57-42a0-9ccc-2b3d2151d405-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f1f7e905-1ed0-4bec-8833-2add380dfcf4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f239979a-14fd-45ae-904c-cbefa0a60f30-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f3077738-aaba-4e17-b5b1-c850936b0fb6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f3bec8af-514c-4566-bc55-7fa6b8149d46-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f4a3234f-eae4-4e7a-ab88-caf53be5b4fb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f91f2973-4e03-45cb-aecb-f37da4a606db-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/fa4e3f31-9671-4ba1-ab0b-ef3aa54b420d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/fc060f8f-4db2-42f5-94c1-6edefd5eb629-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chrome.capabilities" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ss/annotations/Rest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ss/utils/ApiService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ss/utils/ApiService$SSLMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ss/utils/ApiService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ss/utils/ElementUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ss/utils/SuiteConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ss/utils/WaitUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ss/utils/WebDriverManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/phantomjs.capabilities" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/logs/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-02-01T19-23-15_139.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Tests/Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Tests/Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.ss.tests.FilterByPriceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.ss.tests.ProductPageElementsTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Tests/Test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Tests/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Tests/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Tests/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Tests/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Tests/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Tests/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Tests/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Tests/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Tests/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Tests/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/chrome.capabilities" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ss/components/Filters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ss/components/Footer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ss/components/Header.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ss/components/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ss/data/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ss/data/VacancyCategoriesDataProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ss/listeners/Listener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ss/pages/MainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ss/pages/Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ss/pages/ProductPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ss/tests/FilterByPriceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ss/tests/ProductPageElementsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ss/tests/TestBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/phantomjs.capabilities" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests.xml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,15 +164,17 @@
     <session id="780777075">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="14874" />
-          <entry key="PLAIN_TEXT" value="35" />
+          <entry key="PLAIN_TEXT" value="58" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="213" />
         </counts>
@@ -50,8 +183,8 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="102" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="JAVA" value="103" />
+          <entry key="PLAIN_TEXT" value="10" />
           <entry key="Properties" value="6" />
           <entry key="XML" value="9" />
         </counts>
@@ -60,25 +193,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="147" column="24" selection-start-line="147" selection-start-column="21" selection-end-line="147" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/test-classes/tests.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/surefire-reports/All Tests/Test.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/target/surefire-reports/All Tests/Test.xml">
           <provider selected="true" editor-type-id="text-editor" />
@@ -99,9 +213,39 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ss/utils/ApiService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -117,7 +261,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -185,6 +329,7 @@
         <option value="$PROJECT_DIR$/testTask.iml" />
         <option value="$PROJECT_DIR$/src/test/java/com/ss/data/Constants.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -235,8 +380,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1892" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="1" />
     <option name="width" value="1936" />
     <option name="height" value="1176" />
   </component>
@@ -289,150 +435,6 @@
               <item name="ss" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="test-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="listeners" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-status" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-status" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-compiler-plugin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-status" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-compiler-plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="compile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-status" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-compiler-plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="compile" type="462c0819:PsiDirectoryNode" />
-              <item name="default-compile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-status" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-compiler-plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="testCompile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-status" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-compiler-plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="testCompile" type="462c0819:PsiDirectoryNode" />
-              <item name="default-testCompile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
-              <item name="All Tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-task" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -442,8 +444,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549039890946" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SeleniumFramework fixed" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549283055509" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -613,6 +615,14 @@
       <option name="presentableId" value="Default" />
       <updated>1548666399931</updated>
     </task>
+    <task id="LOCAL-00001" summary="add .fitignore file">
+      <created>1549281674748</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549281674748</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -657,9 +667,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1892" y="0" width="1936" height="1176" extended-state="0" />
+    <frame x="1912" y="1" width="1936" height="1176" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18976545" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19189766" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -673,9 +683,9 @@
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39923224" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.19769673" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32917467" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49946696" weight="0.19769673" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" visible="true" weight="0.4049904" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.4049904" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -689,6 +699,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add .fitignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add .fitignore file" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.10.0/selenium-support-3.10.0-sources.jar!/org/openqa/selenium/support/PageFactory.java">
@@ -709,19 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ss/utils/ApiService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -743,11 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
           <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1850#1851#0" expanded="true" />
-            <element signature="e#1901#1902#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -762,9 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -772,10 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#2607#2608#0" expanded="true" />
-            <element signature="e#2672#2673#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -804,10 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
           <caret line="314" column="26" selection-start-line="314" selection-start-column="26" selection-end-line="314" selection-end-column="26" />
-          <folding>
-            <element signature="e#10331#10332#0" expanded="true" />
-            <element signature="e#10386#10387#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -822,9 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="421" selection-start-line="421" selection-end-line="421" />
-          <folding>
-            <element signature="e#15631#15632#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -832,22 +814,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="36" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ss/components/CategoryTile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ss/components/CategoryTile.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
@@ -859,9 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -869,9 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -910,9 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -920,9 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -937,9 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -947,9 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
           <caret line="63" column="48" selection-start-line="63" selection-start-column="48" selection-end-line="63" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -957,9 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1054">
           <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -967,9 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
           <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -977,9 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -987,22 +930,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testTask.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/testTask.iml" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ss/tests/ProductPageElementsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-29">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1010,9 +945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="124" selection-start-line="27" selection-start-column="124" selection-end-line="27" selection-end-column="124" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1030,23 +962,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="92" selection-start-line="15" selection-start-column="92" selection-end-line="15" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
+        <state relative-caret-position="2499">
           <caret line="147" column="24" selection-start-line="147" selection-start-column="21" selection-end-line="147" selection-end-column="24" />
         </state>
       </provider>
@@ -1069,8 +987,46 @@
     <entry file="file://$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="92" selection-start-line="15" selection-start-column="92" selection-end-line="15" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ss/utils/ApiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

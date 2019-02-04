@@ -60,7 +60,7 @@ public class ProductPage extends Page{
         return s;
     }
 
-    @Step("Click on category \"{1}\"")
+    @Step("Click on category \"{0}\"")
     public ProductPage clickOnCategory(String category) {
         logger.info("Click on category  \"{}\"", category);
         for (int i = 0; i < categoryList.size(); i++) {

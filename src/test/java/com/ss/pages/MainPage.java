@@ -41,7 +41,7 @@ public class MainPage extends Page {
     }
 
 
-    @Step("Click on group header \"{}\"")
+    @Step("Click on group header \"{0}\"")
     public ProductPage clickOnGroupHeader(String header) {
         logger.info("Click on group Header named: " + header);
         for (int i = 0; i < groupHeaderList.size(); i++) {

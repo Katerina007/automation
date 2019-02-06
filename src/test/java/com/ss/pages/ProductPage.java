@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 
 import static java.lang.Integer.parseInt;
 
-public class ProductPage extends Page{
+public class ProductPage extends Page {
 
     @FindBy(css = "h4.category a")
     private List<WebElement> categoryList;

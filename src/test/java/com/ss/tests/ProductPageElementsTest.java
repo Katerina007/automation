@@ -30,7 +30,7 @@ public class ProductPageElementsTest extends TestBase {
     public void changePageLang() {
         mainPage = new MainPage(driver);
         mainPage.header.changeLang();
-        softAssert.assertEquals(driver.getCurrentUrl(),"https://www.ss.com/ru/", "Page is not translated to the Russian language");
+        softAssert.assertEquals(driver.getCurrentUrl(), "https://www.ss.com/ru/", "Page is not translated to the Russian language");
         softAssert.assertEquals(mainPage.header.getLangButtonText(), "LV", "Text for language button is not changed");
         softAssert.assertAll();
     }
@@ -67,7 +67,7 @@ public class ProductPageElementsTest extends TestBase {
         softAssert.assertAll();
     }
 
-    @Test (description = "Verify filter elements for Vacancy category page",
+    @Test(description = "Verify filter elements for Vacancy category page",
             dataProvider = "Vacancy categories",
             dataProviderClass = VacancyCategoriesDataProvider.class)
     public void tableElementsTest(String vacancyCategory) {
@@ -78,14 +78,14 @@ public class ProductPageElementsTest extends TestBase {
                 .table.verifyPostDescriptionData()
                 .table.verifyPostPlaceData()
                 .table.verifyColumnDataContainsInfo(expectedColumnTitles.get(1))
-                .table.verifyColumnDataContainsInfo(expectedColumnTitles.get(2),Constants.FILTER_WORKING_DAYS_OPTIONS_RUS);
+                .table.verifyColumnDataContainsInfo(expectedColumnTitles.get(2), Constants.FILTER_WORKING_DAYS_OPTIONS_RUS);
         softAssert.assertEquals(productPage.getTitleText(), Constants.TITLE_VACANCY_RUS + " / " + vacancyCategory);
         softAssert.assertEquals(productPage.filters.getSearchButtonText(), expectedSearchButtonText, "Search button text is not expected");
-        softAssert.assertTrue(productPage.table.getColumnTitles().containsAll(expectedColumnTitles), "Column titles are not expected" );
+        softAssert.assertTrue(productPage.table.getColumnTitles().containsAll(expectedColumnTitles), "Column titles are not expected");
         softAssert.assertAll();
     }
 
-    public void openTargetPage(){
+    public void openTargetPage() {
         driver.get(baseUrl);
     }
 }

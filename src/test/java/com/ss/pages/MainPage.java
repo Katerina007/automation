@@ -54,7 +54,7 @@ public class MainPage extends Page {
     }
 
     @Step("Get list of categories from the group with {0} index")
-    public List<WebElement> getCategoriesByGroupIndex (int index) {
+    public List<WebElement> getCategoriesByGroupIndex(int index) {
         List<WebElement> menuItems = groupList.get(index)
                 .findElements(By.cssSelector("a[id^='mtd']"));
         logger.info("List of categories: " + menuItems.stream().map(WebElement::getText).collect(Collectors.joining("\n")));
@@ -67,9 +67,9 @@ public class MainPage extends Page {
         logger.info("Click on \"{}\" category in \"{}\" group", category, groupHeader);
         getCategoriesByGroupIndex(groupIndex)
                 .get(getCategoriesByGroupIndex(groupIndex)
-                .stream()
-                .map(WebElement::getText)
-                .collect(Collectors.toList()).indexOf(category)).click();
+                        .stream()
+                        .map(WebElement::getText)
+                        .collect(Collectors.toList()).indexOf(category)).click();
         return new ProductPage(driver);
     }
 }
